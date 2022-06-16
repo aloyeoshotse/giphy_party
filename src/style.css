@@ -13,3 +13,10 @@ body {
    width: 6cm;
 
 }
+
+#image {
+    position: absolute;
+    top: 22px;
+    right: 315px;
+    width: 1cm;
+}
