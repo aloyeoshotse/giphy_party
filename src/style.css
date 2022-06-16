@@ -1,10 +1,15 @@
 #banner {
+    position: relative;
     text-align: center;
     color: white;
 }
 
 body {
     background-color: black;
+    margin-top: 0cm;
+    margin-bottom: 10cm;
+    margin-right: 10cm;
+    margin-left: 10cm;
 }
 
 #search {
@@ -15,8 +20,12 @@ body {
 }
 
 #image {
-    position: absolute;
-    top: 22px;
-    right: 315px;
+    position: relative;
+    top: 8px;
+    right: -600px;
     width: 1cm;
+}
+
+.hidden {
+    display: none;
 }
